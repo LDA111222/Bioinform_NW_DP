@@ -1,7 +1,5 @@
-Student Name: WangQi 王琦.
-Student Id: 1710476.
 
-This program uses Smith-Waterman algorithms.
+This program uses NW_DP algorithms.
 The two sequences should save as "*.txt".(ex. Test1.txt or Test2.txt)
 All the letters are excepted to be closely connected without spaces, line breaks or other extraneous characters.
 Uppercase, lowercase and mixture are allowed.(ex. AAACT aaact aAAcT)
@@ -14,7 +12,7 @@ To run the program,
 2. javac Practice2.java
 3. java Practice2 ScoreMatrixFile.txt Sequence1File.txt Sequence2File.txt
 The output result is composed of three part.
-The default value of a and b are -3 and -1, to modify a, b please open the Practice2.java, in Line 390(int a = -3, b = -1;), key in the value after '='.
+The default value of a and b are -3 and -1, to modify a, b please open the Practice2.java, in Line 390(int a = -11, b = -1;), key in the value after '='.
 The first part is the input sequence comfirmation.
 The second part is the matrix M, matrix Iy and matrix Ix.(Numbers which are no more than -10000000 means negative infinity.)
 The last part is the alignment result.
